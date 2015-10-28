@@ -1,0 +1,58 @@
+p {
+    background-color: #f60;
+    padding: 20px 40px;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-feature-settings: "dlig";
+    -moz-font-feature-settings: "dlig";
+    -ms-font-feature-settings: "dlig";
+    -webkit-font-feature-settings: "dlig";
+}
+
+body {
+    background: silver;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+}
+
+main {
+    -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+footer {
+    background: gray;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+}
+
+footer a {
+    color: white;
+}
